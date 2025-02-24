@@ -1,2 +1,10 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+
+using Stacks._20ValidParanthesis;
+
+Valid valid = new Valid();
+//var a =valid.AsteroidCollision(new[] { 5, 10, -5 });
+//Console.WriteLine(string.Join(", ", a));
+
+var b = valid.UniqueOccurrences(new[] { 1, 2, 2, 1, 1, 3 });
+Console.WriteLine(b);
